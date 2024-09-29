@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "lns",
+    "slug": "lns",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.shashikant0101.lns"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "scheme": "your-app-scheme",
+    "extra": {
+      "eas": {
+        "projectId": "de9d2f64-a90f-4eea-9373-4ccd1c6c4bd1"
+      }
+    }
+  }
+}
